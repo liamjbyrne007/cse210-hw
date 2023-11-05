@@ -6,7 +6,6 @@ public class Activity
     private string _activityDescription;
     protected Stopwatch stopwatch = new Stopwatch();
     protected double acc = 0.0;
-    private double lastFrame;
     protected Random random = new Random();
     protected int _randomIndex;
     protected void SetIndex(List<string> list)
@@ -93,6 +92,9 @@ public class Activity
         Console.WriteLine($"Welcome to the {_activityName} activity!");
         Console.WriteLine("");
         Console.WriteLine($"{_activityDescription}");
+        Thread.Sleep(10000);
+        Console.Clear();
+
     }
     public void endMessage()
     {

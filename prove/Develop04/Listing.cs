@@ -11,8 +11,6 @@ public class Listing : Activity
     public void ListActivity()
     {
         StartingMessage();
-        Thread.Sleep(10000);
-        Console.Clear();
 
         SetIndex(_listingList);
         string question = UseIndex(_listingList);

@@ -25,8 +25,6 @@ public class Reflection : Activity
     public void reflect()
     {
         StartingMessage();
-        Thread.Sleep(10000);
-        Console.Clear();
 
         SetIndex(_topic);
         string topic = UseIndex(_topic);

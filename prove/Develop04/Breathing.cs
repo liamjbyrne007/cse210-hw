@@ -3,8 +3,6 @@ public class Breathing : Activity
     public void breathingActivity()
     {
         StartingMessage();
-        Thread.Sleep(10000);
-        Console.Clear();
 
         breathingTiming();
 
