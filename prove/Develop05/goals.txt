@@ -1,0 +1,2 @@
+0
+Repeating Goal,False,Dishes,do the dishes,14,150,0,10

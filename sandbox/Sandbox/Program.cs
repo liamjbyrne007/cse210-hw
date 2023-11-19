@@ -4,9 +4,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        for (int i = 0; i < 10; i++)
+        List<string> strings = new List<string>()
         {
-            Console.WriteLine(i);
-        }
+            "This",
+            "is",
+            "a",
+            "List"
+        };
+        Console.WriteLine(strings[2]);
     }
 }
